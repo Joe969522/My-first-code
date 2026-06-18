@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Code</title>
+    <style>
+      body {
+        /* Gradient background */
+        background: linear-gradient(to bottom, purple, pink, orange);
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 100px;
+        height: 100vh;
+        margin: 0;
+      }
+      h1 {
+        color: orange;
+        text-shadow: 2px 2px 5px black;
+      }
+      p {
+        color: green;
+        font-size: 20px;
+      }
+      button {
+        background-color: #ff4500;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 18px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      button:hover {
+        background-color: #ffa500;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first styled code 🚀</p>
+    <button onclick="changeBackground()">Click Me!</button>
+
+    <script>
+      function changeBackground() {
+        document.body.style.background = 
+          "linear-gradient(to bottom, blue, cyan, lime)";
+        alert("Background changed! 🎉");
+      }
+    </script>
+  </body>
+</html>
